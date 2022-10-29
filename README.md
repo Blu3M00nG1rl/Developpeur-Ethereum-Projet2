@@ -3,13 +3,13 @@ Projet 2 de la formation développeur ethereum
 * Test d'un smart contract de voting
 
 ## Installation de l'environnement
-1 - Lancement de ganache
-2 - truffle init (pour créer l'environnement truffle : contracts, migrations, test, truffle-config.js)
-3 - Création d'un fichier .env pour y intégrer des variables d'environnement (API KEY de INFURA et MNEMONIC de Ganache)
-3 - truffle-config.js et .env : modification des paramètres de networks pour travailler en local ou sur un testnet (avec un clé infura ou alchemy)
-4 - Alimentation du ichier script dans le dossier "migrations" pour l'import et le déploiement du smart contract
-5 - Téléchargement des librairies dotenv, hdwallet-provider et openzeppelin (test-helpers et contracts)
-6 - Téléchargement de eth-gas-reporter et intégration dans truffle-config.js : mocha (rapport sur la quantité de gas utilisé)
+1. Lancement de ganache
+2. truffle init (pour créer l'environnement truffle : contracts, migrations, test, truffle-config.js)
+3. Création d'un fichier .env pour y intégrer des variables d'environnement (API KEY de INFURA et MNEMONIC de Ganache)
+4. truffle-config.js et .env : modification des paramètres de networks pour travailler en local ou sur un testnet (avec un clé infura ou alchemy)
+5. Alimentation du ichier script dans le dossier "migrations" pour l'import et le déploiement du smart contract
+6. Téléchargement des librairies dotenv, hdwallet-provider et openzeppelin (test-helpers et contracts)
+7. Téléchargement de eth-gas-reporter et intégration dans truffle-config.js : mocha (rapport sur la quantité de gas utilisé)
 
 ## Création du fichier de test
 Le tests ont été répartis en plusieurs étapes :
